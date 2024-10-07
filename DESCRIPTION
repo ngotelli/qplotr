@@ -1,13 +1,22 @@
 Package: qplotr
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Type: Package
+Title: A Collection of q-plot Functions
+Version: 0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: AGPL (>= 3)
+    person(given = "Nicholas",
+           family = "Gotelli",
+           role = c("aut", "cre"),
+           email = "ngotelli@uvm.edu")
+Maintainer: Nicholas Gotelli <ngotelli@uvm.edu>
+Description: A set of q-plot functions for generating archetype data visualizations with simple parametric tests against a basic null hypothesis.
+License: GPL (>= 3)
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+LazyData: true
 URL: https://github.com/ngotelli/qplotr
 BugReports: https://github.com/ngotelli/qplotr/issues
+RoxygenNote: 7.3.2
+Imports: 
+    ggplot2,
+    knitr
+Suggests: 
+VignetteBuilder: knitr
