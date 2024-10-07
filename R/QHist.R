@@ -16,7 +16,10 @@
 #' @param h_0 a constant numeric for the expectation of the
 #' null hypothesis. The default value is h_0 = 0.0.
 #'
-#' @return
+#' @return a plot of a histogram of the data, the mean and 95% confidence
+#' interval and a one-sample t-test of the mean against the expectation of
+#' the null hypothesis h_0. The default is h_0 = 0.0.
+#'
 #' @export
 #'
 #' @examples
